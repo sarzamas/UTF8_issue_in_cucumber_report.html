@@ -11,7 +11,7 @@ issue description on github: https://github.com/cucumber/cucumber-ruby/issues/13
 $ bundle update
 
 2.2 - Launch cucumber: (no need to attach any device or emulator)
-$ bundle exec cucumber -t @smoke -p android_dev_usb -f pretty --expand -f html -o test_report/report.html
+# bundle exec cucumber -t @smoke -p android_dev_usb -f pretty --expand -f html -o test_report/report.html
 
 NOTICE!
 - never mind errors in execution log like:
@@ -23,11 +23,11 @@ adb: error: device 'PL2GAR98' not found
 look at genegated report.html in folder ~/UTF8_issue_in_cucumber_report.html/test_report/
 and found in it error like:
 
-invalid byte sequence in UTF-8 (ArgumentError)
--1# Couldn't get snippet for 
+# invalid byte sequence in UTF-8 (ArgumentError)
+# -1# Couldn't get snippet for 
 
 NOTICE!
-if error is not present for some reason - one can check as of my own run in file report_error.html in same folder
+if error is not present for some reason - one can check as of my own run in file report_error.html in same folder and screenshot Cucumber_report_error.html.png
 
 
 
@@ -43,7 +43,7 @@ if error is not present for some reason - one can check as of my own run in file
 4.2 run Launch cucumber command again and look after generated report.html
 
 NOTICE!
-- one can check solution as of my own run in file report_NO_error.html in same folder
+- one can check solution as of my own run in file report_NO_error.html in same folder and Cucumber_report_NO_error.html.png
 
 
 5. Environment:
