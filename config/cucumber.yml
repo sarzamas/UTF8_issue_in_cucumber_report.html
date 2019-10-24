@@ -1,0 +1,18 @@
+launch cucumber: >
+  LAUNCH CUCUMBER:    $ bundle exec cucumber -t @smoke -p android_dev_usb -f pretty --expand -f html -o test_report/report.html
+
+android_dev_usb: >
+  PLATFORM=android
+  ADB_DEVICE_ARG="PL2GAR98"
+  DEBUG=0
+  DEBUG_HTTP=0
+  XTC_LANG=ru
+  XTC_DEVICE_INDEX=0
+  LOCAL=true
+  SCREENSHOT_PATH="screenshots/cucumber_"
+  RESET_BETWEEN_SCENARIOS=0
+  REINSTALL=0
+  TEST_APP_PATH=/Users/qa/projects/calabash/android/android/test_servers/c8be5ad33a67997ac97bbf2128b80af0_0.9.12.apk
+  APP_PATH=/Users/qa/projects/android/app/build/outputs/apk/dev/debug/2-4.0.0-dev-debug.apk
+  -r features/step_definitions -r features/support -r features/locales -r features/android
+  --tags "@android and not @only_ios and @all"

@@ -1,0 +1,22 @@
+---
+# EnterPage
+enter: 'Вход'
+enter_phone: 'Введите телефон'
+enter_descr: 'Мы отправим на него код.'
+country_code: '+7 '
+enter_sms_code: 'Код из СМС'
+
+# MainPage
+object_name: 'Новый объект'
+gas_leak: 'Утечка газа'
+leakage: 'Протечка'
+security_service: 'Услуги охраны'
+settings: 'Настройки'
+switched-off: 'Выключен'
+today: 'Сегодня'
+user_name_short: 'SS'
+exit: 'Выход'
+
+# ActionCodePage
+action_arm: 'Взять под охрану'
+action_disarm: 'Снять с охраны'

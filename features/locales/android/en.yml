@@ -1,0 +1,26 @@
+---
+# EnterPage
+enter: 'Log in'
+enter_phone: 'Enter phone'
+enter_descr: 'We will send a code to it.'
+country_code: '+1 '
+enter_sms_code: 'Code from SMS'
+
+# MainPage
+object_name: 'второе название'
+part_1: 'ОХРАНА ПО РАЗДЕЛУ 1'
+part_2: 'ОХРАНА ПО РАЗДЕЛУ 2'
+part_3: 'ОХРАНА ПО РАЗДЕЛУ 3'
+gas_leak: 'Gas leak'
+leakage: 'Leakage'
+security_service: 'Security service'
+settings: 'Settings'
+today: 'Today'
+user_name: 'Sergey Sarzamas'
+user_name_short: 'SS'
+event_last: '18:33, ОХРАНА ПО РАЗДЕЛУ 2'
+exit: 'Exit'
+
+# ActionCodePage
+action_arm: 'Take under protection'
+action_disarm: 'Disarm'
