@@ -36,8 +36,9 @@ if error is not present for some reason - one can check as of my own run in file
  
  To escape error with UTF8 one should:
 
-4.1 add two empty lines in step_definition file after this line 
+4.1 add two empty lines in step_definition file before this line 
  ./features/step_definitions/MyAlarm_steps.rb:2
+ this need to be done to exclude show up of russian characters on first line inside html report snippet
 
 4.2 run Launch cucumber command again and look after generated report.html
 
